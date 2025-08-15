@@ -1,6 +1,10 @@
 # Reinforcement Learning for Language Models
 
-This repository contains implementations of various reinforcement learning techniques for training language models, including PPO (Proximal Policy Optimization) and GRPO (General Reinforcement Policy Optimization).
+This repository implements advanced reinforcement learning techniques for enhancing language model capabilities, featuring both PPO (Proximal Policy Optimization) and GRPO (General Reinforcement Policy Optimization) frameworks. The codebase focuses on RL fine-tuning of language models to improve code generation quality, consistency, and complexity—specifically targeting sub-4B parameter models to maximize their coding abilities.
+
+A key idea behind this project is the adversarial training system where two language models compete against each other in real-time, continuously improving through reinforcement learning feedback loops. This approach creates a self-improving ecosystem where models learn to generate increasingly sophisticated code by attempting to outperform their opponents.
+
+The modular architecture supports various model architectures, reward functions, and training configurations, making it adaptable for different code generation tasks and model sizes.
 
 ## Repository Structure
 
